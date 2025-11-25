@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pure HTML & CSS Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header>
+        <div class="container nav">
+            <h1 class="logo">SAGAR</h1>
+            <nav class="menu">
+                <a href="#hero">Home</a>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact" class="btn">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- HERO -->
+    <section id="hero" class="hero">
+        <div class="container hero-flex">
+            <div class="hero-text">
+                <h2>Hello, I'm <span class="highlight">Sagar Kashyap</span></h2>
+                <p>A frontend developer specializing in clean UI, Flexbox, Grid, and pure CSS animations.</p>
+                <a href="#projects" class="btn">Explore Work</a>
+            </div>
+
+            <div class="hero-img"></div>
+        </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="container card">
+        <h2>About Me</h2>
+        <p>
+            I design and develop responsive, visually appealing interfaces using only HTML and CSS.
+            I have strong knowledge of Flexbox, CSS Grid, gradients, animations, and modern UI layouts.
+        </p>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="container">
+        <h2>Skills</h2>
+        <div class="skills-grid">
+            <div class="skill-card">HTML</div>
+            <div class="skill-card">CSS</div>
+            <div class="skill-card">Flexbox</div>
+            <div class="skill-card">Grid</div>
+            <div class="skill-card">Animations</div>
+            <div class="skill-card">UI Design</div>
+        </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="container">
+        <h2>Projects</h2>
+
+        <div class="projects-grid">
+
+            <div class="project-card">
+                <div class="project-img img1"></div>
+                <h3>Modern Portfolio</h3>
+                <p>Designed using pure HTML + CSS with gradients and flexbox layout.</p>
+            </div>
+
+            <div class="project-card">
+                <div class="project-img img2"></div>
+                <h3>Grid Dashboard</h3>
+                <p>Built with advanced CSS Grid templates and smooth hover transitions.</p>
+            </div>
+
+            <div class="project-card">
+                <div class="project-img img3"></div>
+                <h3>Animated UI Components</h3>
+                <p>CSS-only animations without any JavaScript involved.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="container card">
+        <h2>Contact Me</h2>
+        <form class="contact-form">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea rows="4" placeholder="Your Message"></textarea>
+            <button class="btn">Send</button>
+        </form>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>© 2025 Sagar • Pure HTML + CSS Portfolio</p>
+        
+    </footer>
+
+</body>
+</html>
